@@ -8,6 +8,7 @@ import { HiMenu} from 'react-icons/hi';
 import './Navbar.css';
 
 function Navbar() {
+
   return (
     <nav className="navbar">
             <div className="menudrop">
@@ -19,8 +20,8 @@ function Navbar() {
       
       </div>
       <div className="search-bar">
-        <input type="text" placeholder="Search" />
-        <button type="submit"><FaSearch/></button>
+        <input type="text" placeholder="Search" className='search' />
+        <button type="submit" ><FaSearch/></button>
       
       </div>
       <div className='mike'>
@@ -30,6 +31,7 @@ function Navbar() {
         <button className="user"><MdNotifications/></button>
         <span className="user-name"><FaUser/></span>
       </div>
+      
     </nav>
   );
 }

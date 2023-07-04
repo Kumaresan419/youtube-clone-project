@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 8px 50px;
+    
     background-color: #ffffff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
@@ -43,6 +44,7 @@
     position: relative;
     left: -2%;
     justify-content: center;
+    display: flex;
   }
   .user-menu{
     padding-right: 4px;
@@ -87,22 +89,74 @@
     position: relative;
     left: -22%;
 }
+@media (max-width:1000px){
+  .logo{
+    margin-left: 10%;
+  }
+  .mike{
+        margin-left: 50px;
+  }
+  .user{
+    margin-left: -100%;
+}
+ }
   
   /* Responsive Styles */
- @media (max-width:768px){
+ @media (max-width:700px){
     .logo {
-        margin-left: 10%;
+        margin-left: 8.5%;
     }
     .mike{
-        margin-left: 10%;
+        margin-left: 50%;
     }
     .user{
         margin-left: -280%;
     }
     .search-bar button{
-        margin-left:-5% ;
+        margin-left:400% ;
+        margin-top: -5%;
+        background-color: transparent;
+        outline: none;
+        border:none;
+        font-size: 1.5em;
+
+    }
+  
+    
+    .search-bar input{
+      display: none;
     }
 
 
  }
- 
+
+
+ @media (max-width:425px){
+  .navbar{
+    width: 100vw;
+     
+  }
+  .logo {
+      margin-left: 8.5%;
+  }
+  .mike{
+      margin-left: 40%;
+  }
+  .user{
+      margin-left: -150%;
+  }
+  .search-bar button{
+      margin-left: 200% ;
+      margin-top: -47%;
+      background-color: transparent;
+      outline: none;
+      border:none;
+      font-size: 1.5em;
+
+  }
+  .search-bar input{
+    display: none;
+  }
+
+
+}
