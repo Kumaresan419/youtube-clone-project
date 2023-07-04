@@ -1,0 +1,15 @@
+.videos{
+    float: left;
+    margin-top: 1%;
+    margin-left: 8%;
+   
+}
+.image1{
+    width: 10vh;
+    height: 8vh;
+    border-radius: 100px;
+    float: left;
+    margin-top: 0;
+
+
+}
