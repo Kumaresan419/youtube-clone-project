@@ -12,6 +12,7 @@ function App() {
       
       <BrowserRouter>
       <Navbar />
+      <Video1 />
     <Routes>
    
         <Route path='/' element={<Container /> }/>
